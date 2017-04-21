@@ -33,7 +33,7 @@ sudo apt-get install ccmake-curses-gui
 先Config，再Generate。
 这时到构建目录去，可以看到，已经生成了VS工程文件。
 打开VS，构建运行。
-中途可能会出小小的错，请发挥你们的聪明才智自行解决。
+**中途可能会出小小的错，请发挥你们的聪明才智自行解决。**
 
 ### Ubuntu
 解压源码压缩包，进入；新建文件夹release（名字随意），进入。
@@ -56,7 +56,7 @@ sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev
 ```
 可以参考：www.linuxidc.com/Linux/2012-05/60771.htm
 
-最后`sudo make`。可能需要等待较长时间。过程中可能出错，请发挥你们的聪明才智自行解决。改好接着make。
+最后`sudo make`。可能需要等待较长时间。**中途可能出错，请发挥你们的聪明才智自行解决。**改好接着make。
 
 # VolView使用注意事项
 - 打开GPU加速；
